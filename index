@@ -1,0 +1,40 @@
+<html>
+<head><title>Shopping Form</title>
+ <link rel="stylesheet" type="text/css" href="index.css"> </head>
+<body bgcolor="8fa5b3" text="#003300">
+<hr color="628ea8" size="15">
+    <center><h2>Shopping Online Form<h2></center>
+    <form>
+        Name:
+        <input type="Name" name="Name" placeholder="Name" required>
+        Lastname:
+        <input type="Lastname" name="Lastname" placeholder="Lastname" required>
+        <br><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other<br>
+        <br>
+		<h3>Order List:</h3><br>
+		Shampoo: <br>
+        <input type="radio" name="gender" value="Head & Shoulders"> Head & Shoulders<br>
+        <input type="radio" name="gender" value="Vaseline"> Vaseline<br>
+        <input type="radio" name="gender" value="Dove"> Dove<br>
+        <br>
+		Toothpaste: <br>
+        <input type="radio" name="gender" value="Colgate"> Colgate<br>
+        <input type="radio" name="gender" value="Close-Up"> Close-Up<br>
+        <input type="radio" name="gender" value="Sensodyne"> Sensodyne<br>
+        <br>
+		Body Soap: <br>
+        <input type="radio" name="gender" value="Dove Body Soap"> Dove Body Soap<br>
+        <input type="radio" name="gender" value="Safe Guard"> Safe Guard<br>
+        <input type="radio" name="gender" value="Olay"> Olay<br>
+        <br>
+        <input type="submit" value="Submit">
+		
+		
+    </form>
+    </body>
+	<hr color="628ea8" size="15">
+</html
